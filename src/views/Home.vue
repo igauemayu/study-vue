@@ -19,6 +19,10 @@
     <h3>注意</h3>
     <p>2021年4月頃作成したものです。古い記述となっています。</p>
   </div>
+
+  <div class="btn btn04">
+	<a href="https://github.com/MayuIgaue/vue-study">gitはこちら</a>
+</div>
 </template>
 
 <script>
@@ -35,5 +39,21 @@ div{
 
 h3{
   background-color: aquamarine;
+}
+.btn a {
+	padding: 50px;
+	color: #333;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.btn{
+  background-color: #fff697;
+}
+
+.btn:hover {
+	background-color: #dbd377;
 }
 </style>
